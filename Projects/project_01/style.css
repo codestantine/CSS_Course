@@ -5,7 +5,6 @@ h4,
 p,
 li {
   font-family: sans-serif;
-  
 }
 
 h1 {
@@ -38,14 +37,38 @@ li {
   font-size: 20px;
 }
 
-/* descended selector */
-footer p {
+/* descendant selector */
+/* footer p {
+  font-size: 16px;
+  text-decoration: underline;
+  color: brown;
+} */
+
+/* article header p {
+  font-style: italic;
+} */
+
+/* selecting based on ID */
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
   font-size: 16px;
   text-decoration: underline;
   color: brown;
 }
 
-article header p {
-  font-style: italic;
+/* Selecting based on class */
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* challenge remove bullet points from
+the lists in the "Related Posts" section */
+aside ul li {
+  list-style-type: none;
 }
 
