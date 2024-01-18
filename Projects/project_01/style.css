@@ -1,3 +1,7 @@
+body {
+  /* background-color: darkturquoise; */
+}
+
 h1,
 h2,
 h3,
@@ -5,6 +9,11 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
+}
+
+h1, h2, h3 {
+  color: #1098ad;
 }
 
 h1 {
@@ -72,3 +81,13 @@ aside ul li {
   list-style-type: none;
 }
 
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
