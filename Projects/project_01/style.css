@@ -18,7 +18,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 26px;
-  color: blue;
+  /* color: blue; */
   text-transform: uppercase;
   font-style: italic;
 }
@@ -58,7 +58,7 @@ li {
 } */
 
 /* selecting based on ID */
-#author {
+#author-text {
   font-style: italic;
   font-size: 18px;
 }
@@ -124,4 +124,41 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+/* Conflicting Selctors and declarations */
+/*
+  PRIORITY OF SELECTORS
+  ! IMPORTANT -> 5
+  INLINE STYLES -> 4
+  ID -> 3
+  CLASS -> 2
+  ELEMENT -> 1
+  UNIVERSAL (*) -> 0
+*/
+
+.author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#author-text {
+  font-size: 20px;
+}
+
+/* RESOLVING CONFLICT */
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green !important;
 }
