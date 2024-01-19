@@ -1,15 +1,12 @@
-body {
-  /* background-color: darkturquoise; */
+/* UNIVERSAL SELECTOR ->APPLIES TO
+ ALL ELEMENTS, NO INHERITANCE INVOLVED */
+* {
+  /* border: 1px solid red; */
 }
 
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
+body {
   color: #444;
+  font-family: sans-serif;
 }
 
 h1, h2, h3 {
@@ -137,17 +134,17 @@ a:active {
   UNIVERSAL (*) -> 0
 */
 
-.author {
+/* .author {
   font-style: italic;
   font-size: 18px;
 }
 
 #author-text {
   font-size: 20px;
-}
+} */
 
 /* RESOLVING CONFLICT */
-#copyright {
+/* #copyright {
   color: red;
 }
 
@@ -161,4 +158,9 @@ a:active {
 
 footer p {
   color: green !important;
+} */
+
+/* INHERITANCE */
+nav {
+  font-size: 18px;
 }
