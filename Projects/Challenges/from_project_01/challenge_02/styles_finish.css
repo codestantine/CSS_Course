@@ -1,0 +1,73 @@
+* {
+  /* background-color: aqua; */
+  color: black;
+  box-sizing: border-box;
+  list-style: square;
+}
+
+body {
+  font-family: sans-serif;
+  
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+article {
+  padding: 0px 10px 15px;
+  border: 4px solid black;
+}
+
+article h2 {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+}
+
+article p strong {
+  font-weight: 700;
+}
+
+.shipping {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #777;
+}
+
+.info {
+  text-decoration: underline;
+  line-height: 2.5;
+}
+
+.info:hover {
+  color: black;
+  text-decoration: underline orangered;
+}
+
+.btn-container {
+  text-align: center;
+  width: 100%;
+}
+
+.button {
+  background-color: white;
+  border: 1px solid black;
+  font-weight: 700;
+  padding: 3px 10px;
+  cursor: pointer;
+  width: 100%;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+  border: none;
+  cursor: pointer;
+}
