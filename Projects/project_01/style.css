@@ -11,6 +11,12 @@ body {
   font-family: sans-serif;
 }
 
+.container {
+  width: 800px;
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
@@ -79,11 +85,14 @@ p {
 ul, ol {
   margin-left: 50px;
   margin-bottom: 20px;
+  /* margin: 0 auto;
+  text-align: center; */
 }
 
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 li:last-child {
